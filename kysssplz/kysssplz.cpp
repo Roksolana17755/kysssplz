@@ -52,7 +52,7 @@ int main() {
             else {
                 int sum = 0;
                 for (int i = 0; i < size; i++)
-                    sum += arr[i];
+                    sum += arr[i]; 
                 cout << "middle value: " << (double)sum / size << endl;
             }
             break;
